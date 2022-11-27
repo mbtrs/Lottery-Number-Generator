@@ -13,7 +13,6 @@ window.config(bg="#fff")
 window.resizable(width=False,height=False)
 window.title('Lottery Number Generator')
 
-
 l1 = tk.Label(text="Lottery Number Generator",font=("Arial",20),bg="Black",fg="White")
 
 b1 = tk.Button(text="Click here to generate lottery numbers",font=("Arial",15),bg="#A3E4D7",command=lot_numbers)
